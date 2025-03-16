@@ -4,7 +4,7 @@ from PyQt6.QtWidgets import QApplication, QMessageBox
 from app import ExpenseApp
 
 def main():
-    app = QApplication([])
+    app = QApplication(sys.argv)
 
     window = ExpenseApp()    
     window.show()
